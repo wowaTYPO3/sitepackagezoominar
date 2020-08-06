@@ -1,0 +1,48 @@
+page = PAGE
+
+page.meta {
+  viewport = width=device-width,initial-scale=1
+}
+
+page.includeCSS {
+  default = EXT:sitepackage2/Resources/Public/Css/styles.css
+}
+
+page.includeJS {
+
+}
+page.includeJSFooter {
+
+}
+
+page.10 = FLUIDTEMPLATE
+page.10 {
+  partialRootPath = EXT:sitepackage2/Resources/Private/Partials/
+  layoutRootPath = EXT:sitepackage2/Resources/Private/Layouts/
+
+  //file = EXT:sitepackage2/Resources/Private/Templates/Default.html
+
+  file.stdWrap.cObject = CASE
+  file.stdWrap.cObject {
+    key.data = pagelayout
+
+    pagets__default = TEXT
+    pagets__default.value = EXT:sitepackage2/Resources/Private/Templates/Default.html
+
+    ## Hier können bei Bedarf weitere Backend Layouts abgefragt werden
+    #pagets__3spalten = TEXT
+    #pagets__3spalten.value =
+
+    default < .pagets__default
+  }
+
+  variables {
+    content0 < styles.content.get
+    content0.select.where = colPos = 0
+  }
+
+  settings {
+
+  }
+
+}

@@ -1,0 +1,14 @@
+{
+    "name": "wwagner/sitepackage2",
+    "description": "Basic sitepackage for TYPO3.",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+		"version": "1.0.0",
+    "authors": [
+        {
+            "name": "Wolfgang Wagner",
+            "email": "wwagner@wwagner.net"
+        }
+    ],
+    "require": {}
+}
