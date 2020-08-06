@@ -21,4 +21,5 @@ Backend starten:
 Benutzername: admin
 Passwort: password
 
-Wenn du nur das Sitepackage möchtest, kannst Du dir entweder das Repository klonen aus als Zip runterladen.
+Wenn du nur das Sitepackage möchtest, kannst Du dir entweder das Repository klonen oder als Zip runterladen:
+https://github.com/wowaTYPO3/sitepackagezoominar/tags
