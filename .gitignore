@@ -5,7 +5,7 @@
 /var/*
 !/var/labels/
 /vendor/*
-
+.idea
 
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm,macos
