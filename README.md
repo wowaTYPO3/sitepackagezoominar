@@ -10,4 +10,15 @@ aus, anschließend ein
 
 `ddev composer install`
 
+Um die Datenbank zu importieren:
+
+`ddev import-db -f database.sql`
+
+Backend starten:
+
+`ddev launch /typo3`
+
+Benutzername: admin
+Passwort: password
+
 Wenn du nur das Sitepackage möchtest, kannst Du dir entweder das Repository klonen aus als Zip runterladen.
