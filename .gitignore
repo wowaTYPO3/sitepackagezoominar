@@ -3,7 +3,7 @@
 /public/typo3conf/ext/*
 /public/typo3temp
 /var/*
-!/var/labels/
+!/var/labels
 /vendor/*
 .idea
 
