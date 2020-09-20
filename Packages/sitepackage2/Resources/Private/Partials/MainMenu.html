@@ -7,10 +7,10 @@
 			<f:for each="{menu}" as="menuItem">
 				<li class="{f:if(condition:'{menuItem.active}',then:'active')}">
 					<f:link.page pageUid="{menuItem.data.uid}" title="{menuItem.title}" target="{menuItem.target}">{menuItem.title}</f:link.page>
-					<f:render section="Menu" arguments="{menu: menuItem.children}"/>
-			  </li>
-		  </f:for>
-	  </ul>
+					<f:render section="Menu" arguments="{menu: menuItem.children, level: level}"/>
+				</li>
+			</f:for>
+		</ul>
 	</f:if>
 </f:section>
 </html>
